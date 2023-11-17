@@ -202,14 +202,16 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.ClientSize = new System.Drawing.Size(765, 467);
             this.Controls.Add(this.dgvMatriculas);
             this.Controls.Add(this.btnEditarMatricula);
             this.Controls.Add(this.btnAgregarMatricula);
             this.Controls.Add(this.btnVerMatriculas);
             this.Controls.Add(this.dgvAlumnos);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Form1";
             this.Text = "Registro de Matrículas";
             ((System.ComponentModel.ISupportInitialize)(this.dgvAlumnos)).EndInit();
